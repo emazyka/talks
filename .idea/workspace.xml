@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="64cddf71-b883-4cd1-a5ed-054d4d543ec6" name="Changes" comment="wip">
+      <change afterPath="$PROJECT_DIR$/2025-06-26-vue-testing-with-vitest/src/.slidev/graph/setup.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025-06-26-vue-testing-with-vitest/src/components/ProsCons.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025-06-26-vue-testing-with-vitest/src/components/Repo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025-06-26-vue-testing-with-vitest/src/components/SetupGraph.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025-06-26-vue-testing-with-vitest/src/components/TimeAgo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025-06-26-vue-testing-with-vitest/src/components/Timeline.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025-06-26-vue-testing-with-vitest/src/eslint.demo.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025-06-26-vue-testing-with-vitest/src/global-bottom.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025-06-26-vue-testing-with-vitest/src/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025-06-26-vue-testing-with-vitest/src/public/af-logo-animated.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025-06-26-vue-testing-with-vitest/src/public/broken-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025-06-26-vue-testing-with-vitest/src/public/broken-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025-06-26-vue-testing-with-vitest/src/public/expected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025-06-26-vue-testing-with-vitest/src/public/nuxt-devtools.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025-06-26-vue-testing-with-vitest/src/public/nuxt-pr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025-06-26-vue-testing-with-vitest/src/public/shadow-dom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025-06-26-vue-testing-with-vitest/src/public/v-tokyo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025-06-26-vue-testing-with-vitest/src/public/wc-lea.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025-06-26-vue-testing-with-vitest/src/public/wc-mayank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025-06-26-vue-testing-with-vitest/src/public/wc-rich.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025-06-26-vue-testing-with-vitest/src/public/wc-ryan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025-06-26-vue-testing-with-vitest/src/setup/monaco.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025-06-26-vue-testing-with-vitest/src/slides.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025-06-26-vue-testing-with-vitest/src/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025-06-26-vue-testing-with-vitest/src/unocss.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025-06-26-vue-testing-with-vitest/src/vite.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pnpm-workspace.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reuse/intro.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reuse/intro.vite.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reuse/intro.zh.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reuse/sponsors.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reuse/thanks.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reuse/thanks.zh.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/picker.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/random-icons.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/redirects.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.npmrc" beforeDir="false" afterPath="$PROJECT_DIR$/.npmrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slides/2024-02-23-vuejs-migration/2024-02-23-vuejs-migration.md" beforeDir="false" afterPath="$PROJECT_DIR$/2024-02-23-vuejs-migration/2024-02-23-vuejs-migration.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slides/2024-02-23-vuejs-migration/public/Voxxed-Days-Ioannina-logo-white-trans-300x84.png" beforeDir="false" afterPath="$PROJECT_DIR$/2024-02-23-vuejs-migration/public/Voxxed-Days-Ioannina-logo-white-trans-300x84.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slides/2024-02-23-vuejs-migration/public/ema-zyka-2022-b.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/2024-02-23-vuejs-migration/public/ema-zyka-2022-b.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slides/2024-02-23-vuejs-migration/public/logo-w.png" beforeDir="false" afterPath="$PROJECT_DIR$/2024-02-23-vuejs-migration/public/logo-w.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slides/2024-02-23-vuejs-migration/public/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/2024-02-23-vuejs-migration/public/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slides/2024-02-23-vuejs-migration/public/pinia.svg" beforeDir="false" afterPath="$PROJECT_DIR$/2024-02-23-vuejs-migration/public/pinia.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slides/2024-02-23-vuejs-migration/public/vite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/2024-02-23-vuejs-migration/public/vite.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slides/2024-02-23-vuejs-migration/public/vitepress.svg" beforeDir="false" afterPath="$PROJECT_DIR$/2024-02-23-vuejs-migration/public/vitepress.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slides/2024-02-23-vuejs-migration/public/vitest.svg" beforeDir="false" afterPath="$PROJECT_DIR$/2024-02-23-vuejs-migration/public/vitest.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slides/2024-02-23-vuejs-migration/public/volar.svg" beforeDir="false" afterPath="$PROJECT_DIR$/2024-02-23-vuejs-migration/public/volar.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slides/2024-02-23-vuejs-migration/public/vue-devtools.svg" beforeDir="false" afterPath="$PROJECT_DIR$/2024-02-23-vuejs-migration/public/vue-devtools.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slides/2024-02-23-vuejs-migration/public/vue-logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/2024-02-23-vuejs-migration/public/vue-logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slides/2024-02-23-vuejs-migration/public/vue.svg" beforeDir="false" afterPath="$PROJECT_DIR$/2024-02-23-vuejs-migration/public/vue.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slides/2024-02-23-vuejs-migration/public/vuepress.png" beforeDir="false" afterPath="$PROJECT_DIR$/2024-02-23-vuejs-migration/public/vuepress.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slides/2025-06-26-vue-testing-with-vitest/2025-06-26-vue-testing-with-vitest.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slides/2025-06-26-vue-testing-with-vitest/public/backgrounds/content-1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/2025-06-26-vue-testing-with-vitest/src/public/content-1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slides/2025-06-26-vue-testing-with-vitest/public/backgrounds/content-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/2025-06-26-vue-testing-with-vitest/src/public/content-2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slides/2025-06-26-vue-testing-with-vitest/public/backgrounds/cover.svg" beforeDir="false" afterPath="$PROJECT_DIR$/2025-06-26-vue-testing-with-vitest/src/public/cover.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slides/2025-06-26-vue-testing-with-vitest/public/backgrounds/end.svg" beforeDir="false" afterPath="$PROJECT_DIR$/2025-06-26-vue-testing-with-vitest/src/public/end.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slides/2025-06-26-vue-testing-with-vitest/public/backgrounds/image-1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/2025-06-26-vue-testing-with-vitest/src/public/image-1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slides/2025-06-26-vue-testing-with-vitest/public/backgrounds/logo-shadow.svg" beforeDir="false" afterPath="$PROJECT_DIR$/2025-06-26-vue-testing-with-vitest/src/public/logo-shadow.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slides/2025-06-26-vue-testing-with-vitest/public/backgrounds/section-1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/2025-06-26-vue-testing-with-vitest/src/public/section-1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slides/2025-06-26-vue-testing-with-vitest/public/backgrounds/section-2-vue.svg" beforeDir="false" afterPath="$PROJECT_DIR$/2025-06-26-vue-testing-with-vitest/src/public/section-2-vue.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slides/2025-06-26-vue-testing-with-vitest/public/backgrounds/section-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/2025-06-26-vue-testing-with-vitest/src/public/section-2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slides/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="SOFT" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="php" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2ywudZvX0XfEjZHsw43QVicmWI4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JavaScript Debug.index.html (1).executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.index.html (2).executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/emazyka/Desktop/talks&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;pnpm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/emazyka/Desktop/talks/node_modules/typescript/lib&quot;,
+    &quot;two.files.diff.last.used.file&quot;: &quot;/Users/emazyka/Desktop/talks/slides/2024-02-23-vuejs-migration/2024-02-23-vuejs-migration.md&quot;,
+    &quot;two.files.diff.last.used.folder&quot;: &quot;/Users/emazyka/workspace/talks/2025-06-13&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/2025-06-26-vue-testing-with-vitest/src/public" />
+      <recent name="$PROJECT_DIR$/2025-06-26-vue-testing-with-vitest/src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/2025-06-26-vue-testing-with-vitest/src/public" />
+      <recent name="$PROJECT_DIR$/2025-06-26-vue-testing-with-vitest/src" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/talks/dist/2025-06-26-vue-testing-with-vitest/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/talks/dist/2024-02-23-vuejs-migration/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/talks/dist/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.index.html (2)" />
+        <item itemvalue="JavaScript Debug.index.html (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.193" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="64cddf71-b883-4cd1-a5ed-054d4d543ec6" name="Changes" comment="" />
+      <created>1750758044242</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1750758044242</updated>
+      <workItem from="1750758045440" duration="1453000" />
+      <workItem from="1750787667501" duration="7621000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/vite.config.js" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="wip" />
+    <MESSAGE value="wip" />
+    <option name="LAST_COMMIT_MESSAGE" value="wip" />
+  </component>
+</project>

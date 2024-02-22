@@ -1,4 +1,8 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+# talks
+
+Slides &amp; code for my talks, using [Slidev](https://sli.dev).
+
+[Talks](https://emazyka.github.io/talks)
 
 To start the slide show:
 
