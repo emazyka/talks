@@ -1,16 +1,16 @@
 {
-  "name": "vuejs-migration-devoxx",
+  "name": "talks",
   "type": "module",
   "private": true,
   "scripts": {
-    "build": "slidev build",
+    "setupfolder": "node generateDirs.js",
+    "build": "for folderName in $(basename -a slides/*/); do slidev build --base /talks/${folderName} slides/${folderName}/${folderName}.md  --out ../../dist/${folderName} --per-slide; done",
     "dev": "slidev --open",
     "export": "slidev export"
   },
   "dependencies": {
     "@antfu/eslint-config": "^2.6.4",
     "@iconify/json": "^2.2.179",
-    "@slidev/cli": "^0.48.0-beta.5",
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest",
     "@types/node": "^20.11.16",
@@ -26,6 +26,7 @@
     "slidev-theme-antfu-vite-conf-2023": "^0.1.9",
     "typescript": "^5.3.3",
     "vite-svg-loader": "^5.1.0",
-    "vue": "^3.4.19"
+    "vue": "^3.4.19",
+    "@slidev/cli": "^0.48.9"
   }
 }

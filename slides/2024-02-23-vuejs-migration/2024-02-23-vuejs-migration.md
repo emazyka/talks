@@ -1,6 +1,6 @@
 ---
 layout: intro
-title: Beyond the Sunset
+title: Beyond the Sunset 🌅
 titleTemplate: '%s - Vue.js'
 class: company-logo-top-right
 author: Ema Zyka
@@ -32,7 +32,7 @@ Ema Zyka
 
 <!--
 Good afternoon - thank you<br/>
-developers explore journey - avoiding<br/>
+developers explore journey<br/>
 But EOL Dec 2023<br/>
 prepare ourselves<br/>
 better face upgrade efforts<br/>
@@ -59,7 +59,7 @@ style: 'padding-left: 9rem;'
 
 # Ema Zyka
 
-<div class="leading-10 opacity-80">
+<div class="leading-10 opacity-80 s">
 <div flex="~ gap-3" items-center>
     <div>Lead Software Engineer</div>
 </div>
