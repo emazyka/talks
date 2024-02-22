@@ -1,5 +1,5 @@
 {
-  "name": "vuejs-migration-devoxx",
+  "name": "talks",
   "type": "module",
   "private": true,
   "scripts": {
