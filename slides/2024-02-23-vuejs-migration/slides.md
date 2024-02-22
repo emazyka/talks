@@ -59,7 +59,7 @@ style: 'padding-left: 9rem;'
 
 # Ema Zyka
 
-<div class="leading-10 opacity-80">
+<div class="leading-10 opacity-80 s">
 <div flex="~ gap-3" items-center>
     <div>Lead Software Engineer</div>
 </div>
