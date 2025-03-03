@@ -2,7 +2,7 @@ name: Deploy in Github Pages
 on:
   push:
     paths:
-      - 'slides/**'
+    - 'slides/**'
 
 permissions:
   contents: write
@@ -22,12 +22,18 @@ jobs:
       - name: Install slidev
         run:  npm i -g @slidev/cli
       - name: Get talk title
-        run: echo "talk_title=$(basename $(git show ${{ github.sha }} --name-only -- "slides/" | grep "slides/" | tail -n 1) .md)" >> "$GITHUB_ENV"
+        run: |
+          TALK_TITLE=$(git show ${{ github.sha }} --name-only -- "slides/" | grep "slides/" | tail -n 1 | sed -E "s|slides/([^/]+)/.*|\1|")
+          MD_FILE=$(ls ./slides/$TALK_TITLE/*.md | head -n 1)
+          echo "talk_title=$TALK_TITLE" >> "$GITHUB_ENV"
+          echo "md_file=$MD_FILE" >> "$GITHUB_ENV"
+          echo "Talk title: $TALK_TITLE"
+          echo "Markdown file: $MD_FILE"
       - name: Build
-        run: slidev build --base /talks/${{env.talk_title}} slides/${{env.talk_title}}/${{env.talk_title}}.md
+        run: slidev build --base /${{env.talk_title}} slides/${{env.talk_title}}/${{env.talk_title}}.md --per-slide
 
       - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@v4
+        uses: JamesIves/github-pages-deploy-action@v4.6.4
         with:
           branch: gh-pages # The branch the action should deploy to.
           folder: slides/${{env.talk_title}}/dist # The folder the action should deploy.

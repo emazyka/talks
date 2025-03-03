@@ -32,7 +32,7 @@ Ema Zyka
 
 <!--
 Good afternoon - thank you<br/>
-developers explore journey - avoiding<br/>
+developers explore journey<br/>
 But EOL Dec 2023<br/>
 prepare ourselves<br/>
 better face upgrade efforts<br/>
