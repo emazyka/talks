@@ -1,7 +1,6 @@
+*.log
 node_modules
-.DS_Store
+*-export*
 dist
-*.local
-.remote-assets
-components.d.ts
-.idea
+.DS_Store
+**/public/assets/fonts

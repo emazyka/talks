@@ -8,7 +8,7 @@ const slidesDir = path.join(__dirname, 'dist');
 const dirs = fs.readdirSync(slidesDir)
   .filter(f => fs.statSync(path.join(slidesDir, f)).isDirectory());
 const linksHtml = dirs.map(dir => {
-  const mdFile = path.join('slides', dir, dir+'.md');
+  const mdFile = path.join(dir, 'src', 'slides.md');
   if (mdFile) {
     const mdContent = fs.readFileSync(mdFile, 'utf-8');
     const match = mdContent.match(/^title:\s*(.+)$/m);
@@ -18,7 +18,7 @@ const linksHtml = dirs.map(dir => {
   return `<li><a href="${dir}">${dir}</a></li>`;
 }).join('\n');
 const linksBlock = `<ul>\n${linksHtml}\n</ul>`;
-const distIndex = path.join(__dirname, 'slides/index.html');
+const distIndex = path.join(__dirname, 'index.html');
 
 if (fs.existsSync(distIndex)) {
   let html = fs.readFileSync(distIndex, 'utf-8');
