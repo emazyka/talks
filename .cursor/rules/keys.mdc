@@ -1,0 +1,65 @@
+---
+description:
+globs:
+alwaysApply: true
+---
+
+What is a monorepo?
+
+A single git repository that contains multiple packages, where different parts of a software project can be organized and developed together
+
+What is a key benefit of using a monorepo for dependency management?
+
+In a monorepo, changes can be made across multiple packages in a single pull request without requiring additional steps like manually updating dependency versions in different repositories
+
+How does a monorepo simplify testing across a project's dependency graph?
+
+In a monorepo, it becomes easier to run the entire test suite for all dependent packages when a change is made, ensuring that modifications work correctly across the entire project
+
+What problem does a monorepo help solve in large software ecosystems?
+
+A monorepo helps prevent dependency updates from becoming complex and time-consuming, reducing the likelihood of packages being years behind on updates
+
+What is an example of how companies might structure their monorepos?
+
+Some companies create separate monorepos for different programming languages, such as having one monorepo for Java code, another for Ruby code, and a third for JavaScript code
+
+What is dependency aware task execution in a monorepo?
+
+It allows running tests, linting, or other tasks only for packages that could be potentially affected by changes in a low-level dependency, including the touched package and anything that depends on it
+
+What is the purpose of using API extractor and documenter in a monorepo?
+
+To create a deliberately controlled API surface for each package, generate auto-generated documentation, create a single declaration file (DTS), and tag exported methods and fields with maturity levels like internal, alpha, or beta
+
+What problem does Syncpack help solve in a monorepo?
+
+Syncpack helps de-duplicate package versions across multiple packages in a monorepo, alerting and helping to consolidate different versions of the same package into a single consistent version
+
+What does the library Knip help identify in a monorepo?
+
+Knip helps identify needless exports from libraries that aren't being consumed within the monorepo, and unneeded dependencies in package.json files
+
+What is a code owners file used for in a monorepo context?
+
+A code owners file governs automatic PR reviews by specifying which team or individuals are responsible for reviewing code in specific packages or directories, with the ability to synchronize this information across individual packages and a root-level file
+
+What is the relationship between mono repos and micro front-end architecture?
+
+Micro front-ends are often arranged as packages within a monorepo, allowing for distinct subparts of a UI to be composed together with strong encapsulation and well-defined contracts between components.
+
+What are the benefits of using cached build steps in development tools like Turbo Repo and NX?
+
+Cached build steps allow skipping tasks with unchanged inputs, preserving the same output across development teams and CI jobs. This approach can significantly speed up build processes by avoiding redundant work when inputs haven't changed.
+
+What are key considerations when deciding between a monorepo and a poly repo?
+
+Key considerations include the interrelatedness of packages, the complexity of tooling and conventions that need to be enforced, and the potential pain of keeping multiple repositories upgraded. Small, self-contained projects might not benefit from a monorepo approach.
+
+What type of project structure might benefit from a monorepo approach?
+
+Projects with highly interconnected packages, such as Babel with its core, plugins, and CLI, or companies with sophisticated tooling and upgrade management needs, are good candidates for a monorepo structure.
+
+What are two main concepts in tools like Turbo Repo and NX?
+
+The two main concepts are: 1) Cached build steps, where tasks with consistent inputs and outputs can be skipped, and 2) A cloud service that allows sharing these cached results across development teams and CI environments.

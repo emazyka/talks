@@ -69,14 +69,16 @@ A single git repository containing multiple packages
 
 <div v-click grid="~ cols-2 gap-4" py4>
   <div flex="~ col gap-4" p4 rounded-xl bg-blue:15 text-blue1 border="~blue:30">
-    <div class="font-bold">Company Examples</div>
-    - Stripe: Separate monorepos per language
-    - Babel: Open source with multiple packages
+    <div class="font-bold">Examples</div>
+
+    - Separate monorepos per language
+    - Open source with multiple packages
     - Each package has its own NPM version
   </div>
 
   <div v-click flex="~ col gap-4" p4 rounded-xl bg-green:15 text-green1 border="~green:30">
     <div class="font-bold">Key Benefits</div>
+
     - Single PR for multiple packages
     - No manual dependency propagation
     - Unified testing across dependencies
@@ -96,15 +98,17 @@ Why dependency management gets complex
 <div v-click grid="~ cols-2 gap-4" py4>
   <div flex="~ col gap-4" p4 rounded-xl bg-red:15 text-red1 border="~red:30">
     <div class="font-bold text-red-400">Polyrepo Pain</div>
+
     - Change in library A
     - Update all dependent repos manually
     - Run NPM install everywhere
     - Propagate through dependency layers
-    - Teams fall years behind on updates
+    - Fall behind on updates
   </div>
 
   <div v-click flex="~ col gap-4" p4 rounded-xl bg-green:15 text-green1 border="~green:30">
     <div class="font-bold text-green-400">Monorepo Solution</div>
+
     - Single PR touches multiple packages
     - No follow-up steps needed
     - Run entire test suite easily
@@ -113,140 +117,7 @@ Why dependency management gets complex
   </div>
 </div>
 
----
-layout: center
----
 
-# What We'll Build Today
-
-<div v-click class="text-lg opacity-80 mb-6">
-A game development monorepo with shared packages
-</div>
-
-<div v-click grid="~ cols-2 gap-4" py4>
-  <div flex="~ col gap-4" p4 rounded-xl bg-purple:15 text-purple1 border="~purple:30">
-    <div class="font-bold">Game Architecture</div>
-    - Game Client (React + Pixi.js)
-    - Game Server (Node.js + Socket.io)
-    - Shared packages (types, utilities)
-  </div>
-
-  <div v-click flex="~ col gap-4" p4 rounded-xl bg-blue:15 text-blue1 border="~blue:30">
-    <div class="font-bold">Monorepo Features</div>
-    - Automatic package linking
-    - Dependency-aware testing
-    - Unified build processes
-    - Type-safe communication
-  </div>
-</div>
-
-<div v-click class="mt-4 text-sm opacity-70">
-🎯 Real-world example with production-ready architecture<br/>
-⚡ Lightning-fast development with Vite<br/>
-📦 Scalable package management
-</div>
-
----
-layout: center
----
-
-# 🧩 Monorepos & Micro Frontends
-
-<div v-click class="text-lg opacity-80 mb-6">
-Perfect companions for scalable frontend architecture
-</div>
-
-<div v-click grid="~ cols-2 gap-4" py4>
-  <div flex="~ col gap-4" p4 rounded-xl bg-blue:15 text-blue1 border="~blue:30">
-    <div class="font-bold">Micro Frontend Benefits</div>
-    - Compose UI from subparts
-    - Strong encapsulation
-    - Independent deployments
-    - Team autonomy
-  </div>
-
-  <div v-click flex="~ col gap-4" p4 rounded-xl bg-green:15 text-green1 border="~green:30">
-    <div class="font-bold">Monorepo Advantages</div>
-    - Each micro frontend as a package
-    - Controlled contracts between parts
-    - Shared tooling and conventions
-    - Unified development workflow
-  </div>
-</div>
-
-<div v-click class="mt-4 text-sm opacity-70">
-🎯 Best of both worlds: modularity + coordination<br/>
-🔄 Single PR can update multiple micro frontends<br/>
-📦 Shared dependencies and build processes
-</div>
-
----
-layout: center
----
-
-# 📚 Library Development with Monorepos
-
-<div v-click class="text-lg opacity-80 mb-6">
-When one project needs multiple distribution formats
-</div>
-
-<div v-click grid="~ cols-2 gap-4" py4>
-  <div flex="~ col gap-4" p4 rounded-xl bg-purple:15 text-purple1 border="~purple:30">
-    <div class="font-bold">Example: Image Processing Tool</div>
-    - Core library package
-    - CLI package for terminal use
-    - Web interface package
-    - Shared utilities package
-  </div>
-
-  <div v-click flex="~ col gap-4" p4 rounded-xl bg-blue:15 text-blue1 border="~blue:30">
-    <div class="font-bold">Monorepo Benefits</div>
-    - Single git commit for all formats
-    - Synchronized feature development
-    - Shared type definitions
-    - Unified versioning
-  </div>
-</div>
-
-<div v-click class="mt-4 text-sm opacity-70">
-🎯 One codebase, multiple distribution channels<br/>
-🔄 Keep all formats in sync automatically<br/>
-📦 Shared dependencies and testing
-</div>
-
----
-layout: center
----
-
-# ⚡ Turbo vs NX: The Build Tool Battle
-
-<div v-click class="text-lg opacity-80 mb-6">
-Both excel at cached task execution
-</div>
-
-<div v-click grid="~ cols-2 gap-4" py4>
-  <div flex="~ col gap-4" p4 rounded-xl bg-green:15 text-green1 border="~green:30">
-    <div class="font-bold">Cached Tasks Concept</div>
-    - Pure functions: same input = same output
-    - Skip repeated work (linting, testing)
-    - Fingerprint inputs to cache outputs
-    - Massive speed improvements
-  </div>
-
-  <div v-click flex="~ col gap-4" p4 rounded-xl bg-blue:15 text-blue1 border="~blue:30">
-    <div class="font-bold">Cloud Caching</div>
-    - Share cache across team
-    - CI/CD benefits from cached results
-    - Distributed build acceleration
-    - Both tools offer this feature
-  </div>
-</div>
-
-<div v-click class="mt-4 text-sm opacity-70">
-⚡ Incredible speedup for deterministic tasks<br/>
-☁️ Team-wide cache sharing<br/>
-🔄 Both tools work similarly well
-</div>
 
 ---
 layout: center
@@ -261,6 +132,7 @@ Key indicators for your decision
 <div v-click grid="~ cols-2 gap-4" py4>
   <div flex="~ col gap-4" p4 rounded-xl bg-green:15 text-green1 border="~green:30">
     <div class="font-bold text-green-400">Choose Monorepo When:</div>
+
     - High package interrelatedness
     - Sophisticated shared tooling
     - Pain keeping teams upgraded
@@ -270,6 +142,7 @@ Key indicators for your decision
 
   <div v-click flex="~ col gap-4" p4 rounded-xl bg-red:15 text-red1 border="~red:30">
     <div class="font-bold text-red-400">Stick with Polyrepo When:</div>
+
     - Self-contained libraries
     - No clear division points
     - Simple CLI tools
@@ -288,57 +161,72 @@ Key indicators for your decision
 layout: center
 ---
 
-# 🎮 The Development Challenge
+# 📚 Library Development with Monorepos
 
-<div v-click class="text-lg opacity-80 mb-8">
-Building a game with shared code across multiple apps
+<div v-click class="text-lg opacity-80 mb-6">
+When one project needs multiple distribution formats
 </div>
 
 <div v-click grid="~ cols-2 gap-4" py4>
-  <div flex="~ col gap-4" p4 rounded-xl bg-blue:15 text-blue1 border="~blue:30">
-    <div class="font-bold">Game Client</div>
+  <div flex="~ col gap-4" p4 rounded-xl bg-purple:15 text-purple1 border="~purple:30">
+    <div class="font-bold">Example: Image Processing Tool</div>
 
-    - Game UI
-    - Game state management
+    - Core library package
+    - CLI package for terminal use
+    - Web interface package
+    - Shared utilities package
   </div>
 
-  <div v-click flex="~ col gap-4" p4 rounded-xl bg-purple:15 text-purple1 border="~purple:30">
-    <div class="font-bold">Game Server</div>
+  <div v-click flex="~ col gap-4" p4 rounded-xl bg-blue:15 text-blue1 border="~blue:30">
+    <div class="font-bold">Monorepo Benefits</div>
 
-    - Node.js + Socket.io
-    - Game logic
+    - Single git commit for all formats
+    - Synchronized feature development
+    - Shared type definitions
+    - Unified versioning
   </div>
 </div>
 
-<div v-click flex="~ col gap-4" p4 rounded-xl bg-green:15 text-green1 border="~green:30" mt4>
-  <div class="font-bold">Shared Packages</div>
-
-  - Common game entities & types
-  - Shared utilities
+<div v-click class="mt-4 text-sm opacity-70">
+🎯 One codebase, multiple distribution channels<br/>
+🔄 Keep all formats in sync automatically<br/>
+📦 Shared dependencies and testing
 </div>
 
 ---
 layout: center
 ---
 
-# 🏗️ The Monorepo Structure
+# ⚡ Enter Vite
 
-```md
-game-monorepo/
-├── .github/workflows/        # CI/CD
-├── packages/
-│   ├── game-client/          # Game UI
-│   └── game-server/          # Game logic
-│   └── game-shared/          # Game shared
-├── assets/                   # Game assets
-├── package.json              # Root workspace config
-└── tsconfig.json             # Shared TypeScript config
-```
+<div v-click class="text-lg opacity-80 mb-8">
+The perfect tool for modern JavaScript monorepos
+</div>
 
-<div v-click class="mt-4 text-sm opacity-70">
-📦 3 main packages + shared configs<br/>
-🚀 Deployment ready<br/>
-🎯 Production-ready architecture
+<div v-click grid="~ cols-2 gap-4" py4>
+  <div flex="~ col gap-4" p4 rounded-xl bg-green:15 text-green1 border="~green:30">
+    <div class="font-bold">Lightning Fast</div>
+
+    - Native ESM in dev
+    - Instant HMR
+    - Optimized builds
+  </div>
+
+  <div v-click flex="~ col gap-4" p4 rounded-xl bg-blue:15 text-blue1 border="~blue:30">
+    <div class="font-bold">Monorepo Ready</div>
+    
+    - Workspace support
+    - Shared dependencies
+    - Unified configs
+  </div>
+</div>
+
+<div v-click flex="~ col gap-4" p4 rounded-xl bg-purple:15 text-purple1 border="~purple:30" mt4>
+  <div class="font-bold">Framework Agnostic</div>
+
+  - React, Vue, Svelte, vanilla JS
+  - Same tooling across apps
+  - Consistent DX
 </div>
 
 ---
@@ -400,41 +288,6 @@ layout: center
   - Slow HMR across packages
   - Hard to debug shared code
   - Inconsistent dev experience
-</div>
-
----
-layout: center
----
-
-# ⚡ Enter Vite
-
-<div v-click class="text-lg opacity-80 mb-8">
-The perfect tool for modern JavaScript monorepos
-</div>
-
-<div v-click grid="~ cols-2 gap-4" py4>
-  <div flex="~ col gap-4" p4 rounded-xl bg-green:15 text-green1 border="~green:30">
-    <div class="font-bold">Lightning Fast</div>
-
-    - Native ESM in dev
-    - Instant HMR
-    - Optimized builds
-  </div>
-
-  <div v-click flex="~ col gap-4" p4 rounded-xl bg-blue:15 text-blue1 border="~blue:30">
-    <div class="font-bold">Monorepo Ready</div>
-    
-    - Workspace support
-    - Shared dependencies
-    - Unified configs
-  </div>
-</div>
-
-<div v-click flex="~ col gap-4" p4 rounded-xl bg-purple:15 text-purple1 border="~purple:30" mt4>
-  <div class="font-bold">Framework Agnostic</div>
-  - React, Vue, Svelte, vanilla JS
-  - Same tooling across apps
-  - Consistent DX
 </div>
 
 ---
@@ -687,6 +540,7 @@ Consistent development experience across the team
 <div v-click grid="~ cols-2 gap-4" py4>
   <div flex="~ col gap-4" p4 rounded-xl bg-green:15 text-green1 border="~green:30">
     <div class="font-bold">New Developer</div>
+
     - `npm install` at root
     - `npm run dev` starts everything
     - Same tooling as everyone
@@ -694,6 +548,7 @@ Consistent development experience across the team
 
   <div v-click flex="~ col gap-4" p4 rounded-xl bg-blue:15 text-blue1 border="~blue:30">
     <div class="font-bold">Frontend Team</div>
+
     - Work on game-client
     - Share components via packages
     - Consistent build process
@@ -702,6 +557,7 @@ Consistent development experience across the team
 
 <div v-click flex="~ col gap-4" p4 rounded-xl bg-purple:15 text-purple1 border="~purple:30" mt4>
   <div class="font-bold">Backend Team</div>
+
   - Work on game-server
   - Share types with frontend
   - Same development workflow
@@ -917,38 +773,99 @@ export interface GameState {
 🔒 Compile-time safety
 </div>
 
+
+
 ---
-layout: cover
+layout: center
 ---
 
-## 📡 WebSocket Types
+# 🏗️ The Monorepo Structure
 
-<div v-click class="text-lg opacity-80 mb-6">
-Type-safe real-time communication
-</div>
-
-<div v-click>
-
-```ts
-// packages/socket-types/src/index.ts
-export interface ServerToClientEvents {
-  gameStateUpdate: (state: GameState) => void
-  playerJoined: (player: Player) => void
-  playerLeft: (playerId: string) => void
-}
-
-export interface ClientToServerEvents {
-  joinGame: (playerName: string) => void
-  movePlayer: (position: Vector2D) => void
-  updateScore: (score: number) => void
-}
+```md
+game-monorepo/
+├── .github/workflows/        # CI/CD
+├── packages/
+│   ├── game-client/          # Game UI
+│   └── game-server/          # Game logic
+│   └── game-shared/          # Game shared
+├── assets/                   # Game assets
+├── package.json              # Root workspace config
+└── tsconfig.json             # Shared TypeScript config
 ```
 
+<div v-click class="mt-4 text-sm opacity-70">
+📦 3 main packages + shared configs<br/>
+🚀 Deployment ready<br/>
+🎯 Production-ready architecture
+</div>
+
+---
+layout: center
+---
+
+# ⚡ Turbo vs NX: The Build Tool Battle
+
+<div v-click class="text-lg opacity-80 mb-6">
+Both excel at cached task execution
+</div>
+
+<div v-click grid="~ cols-2 gap-4" py4>
+  <div flex="~ col gap-4" p4 rounded-xl bg-green:15 text-green1 border="~green:30">
+    <div class="font-bold">Cached Tasks Concept</div>
+
+    - Pure functions: same input/output
+    - Skip repeated work (linting, testing)
+    - Fingerprint inputs to cache outputs
+    - Massive speed improvements
+  </div>
+
+  <div v-click flex="~ col gap-4" p4 rounded-xl bg-blue:15 text-blue1 border="~blue:30">
+    <div class="font-bold">Cloud Caching</div>
+
+    - Share cache across team
+    - CI/CD benefits from cached results
+    - Distributed build acceleration
+    - Both tools offer this feature
+  </div>
 </div>
 
 <div v-click class="mt-4 text-sm opacity-70">
-📡 WebSocket type safety<br/>
-🔄 Real-time event handling
+⚡ Incredible speedup for deterministic tasks<br/>
+☁️ Team-wide cache sharing<br/>
+🔄 Both tools work similarly well
+</div>
+
+---
+layout: center
+---
+
+# 🎮 The Development Challenge
+
+<div v-click class="text-lg opacity-80 mb-8">
+Building a game with shared code across multiple apps
+</div>
+
+<div v-click grid="~ cols-2 gap-4" py4>
+  <div flex="~ col gap-4" p4 rounded-xl bg-blue:15 text-blue1 border="~blue:30">
+    <div class="font-bold">Game Client</div>
+
+    - Game UI
+    - Game state management
+  </div>
+
+  <div v-click flex="~ col gap-4" p4 rounded-xl bg-purple:15 text-purple1 border="~purple:30">
+    <div class="font-bold">Game Server</div>
+
+    - Node.js + Socket.io
+    - Game logic
+  </div>
+</div>
+
+<div v-click flex="~ col gap-4" p4 rounded-xl bg-green:15 text-green1 border="~green:30" mt4>
+  <div class="font-bold">Shared Packages</div>
+
+  - Common game entities & types
+  - Shared utilities
 </div>
 
 ---
@@ -1294,6 +1211,7 @@ What makes this a great monorepo example
 <div v-click grid="~ cols-2 gap-4" py4>
   <div flex="~ col gap-4" p4 rounded-xl bg-green:15 text-green1 border="~green:30">
     <div class="font-bold">Game Features</div>
+    
     - Multiplayer survival gameplay
     - Randomly generated worlds
     - Crafting & base building
@@ -1302,6 +1220,7 @@ What makes this a great monorepo example
 
   <div v-click flex="~ col gap-4" p4 rounded-xl bg-blue:15 text-blue1 border="~blue:30">
     <div class="font-bold">Technical Features</div>
+
     - Entity Component System (ECS)
     - TypeScript throughout
     - Docker deployment
@@ -1328,6 +1247,7 @@ What we achieved with our game monorepo
 <div v-click grid="~ cols-2 gap-4" py4>
   <div flex="~ col gap-4" p4 rounded-xl bg-green:15 text-green1 border="~green:30">
     <div class="font-bold">Development Speed</div>
+
     - 3x faster builds
     - Instant HMR across packages
     - Single command setup
@@ -1335,7 +1255,7 @@ What we achieved with our game monorepo
 
   <div v-click flex="~ col gap-4" p4 rounded-xl bg-blue:15 text-blue1 border="~blue:30">
     <div class="font-bold">Team Productivity</div>
-    - Consistent tooling
+    
     - Easy onboarding
     - Shared code reuse
   </div>
@@ -1343,6 +1263,7 @@ What we achieved with our game monorepo
 
 <div v-click flex="~ col gap-4" p4 rounded-xl bg-purple:15 text-purple1 border="~purple:30" mt4>
   <div class="font-bold">Maintenance</div>
+
   - Single dependency updates
   - Unified configuration
   - Easier debugging
@@ -1575,6 +1496,7 @@ Vite makes JavaScript monorepos a joy to work with
 <div v-click grid="~ cols-2 gap-4" py4>
   <div flex="~ col gap-4" p4 rounded-xl bg-red:15 text-red1 border="~red:30">
     <div class="font-bold">Before Vite</div>
+
     - Slow builds
     - Complex setup
     - Inconsistent tooling
@@ -1582,11 +1504,85 @@ Vite makes JavaScript monorepos a joy to work with
 
   <div v-click flex="~ col gap-4" p4 rounded-xl bg-green:15 text-green1 border="~green:30">
     <div class="font-bold">With Vite</div>
+
     - Lightning fast
     - Simple configuration
     - Unified experience
   </div>
 </div>
+
+
+---
+layout: center
+---
+
+# What We'll Build Today
+
+<div v-click class="text-lg opacity-80 mb-6">
+A game development monorepo with shared packages
+</div>
+
+<div v-click grid="~ cols-2 gap-4" py4>
+  <div flex="~ col gap-4" p4 rounded-xl bg-purple:15 text-purple1 border="~purple:30">
+    <div class="font-bold">Game Architecture</div>
+
+    - Game Client (React + Pixi.js)
+    - Game Server (Node.js + Socket.io)
+    - Shared packages (types, utilities)
+  </div>
+
+  <div v-click flex="~ col gap-4" p4 rounded-xl bg-blue:15 text-blue1 border="~blue:30">
+    <div class="font-bold">Monorepo Features</div>
+
+    - Automatic package linking
+    - Dependency-aware testing
+    - Unified build processes
+    - Type-safe communication
+  </div>
+</div>
+
+<div v-click class="mt-4 text-sm opacity-70">
+🎯 Real-world example with production-ready architecture<br/>
+⚡ Lightning-fast development with Vite<br/>
+📦 Scalable package management
+</div>
+
+---
+layout: center
+---
+
+# 🧩 Monorepos & Micro Frontends
+
+<div v-click class="text-lg opacity-80 mb-6">
+Perfect companions for scalable frontend architecture
+</div>
+
+<div v-click grid="~ cols-2 gap-4" py4>
+  <div flex="~ col gap-4" p4 rounded-xl bg-blue:15 text-blue1 border="~blue:30">
+    <div class="font-bold">Micro Frontend Benefits</div>
+
+    - Compose UI from subparts
+    - Strong encapsulation
+    - Independent deployments
+    - Team autonomy
+  </div>
+
+  <div v-click flex="~ col gap-4" p4 rounded-xl bg-green:15 text-green1 border="~green:30">
+    <div class="font-bold">Monorepo Advantages</div>
+
+    - Each micro frontend as a package
+    - Controlled contracts between parts
+    - Shared tooling and conventions
+    - Unified development workflow
+  </div>
+</div>
+
+<div v-click class="mt-4 text-sm opacity-70">
+🎯 Best of both worlds: modularity + coordination<br/>
+🔄 Single PR can update multiple micro frontends<br/>
+📦 Shared dependencies and build processes
+</div>
+
 
 ---
 layout: intro
