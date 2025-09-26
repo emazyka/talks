@@ -1,0 +1,19 @@
+{
+  "name": "bird-jump-game",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=packages/game-client",
+    "dev:server": "npm run dev --workspace=packages/game-server",
+    "build": "npm run build --workspace=packages/game-client",
+    "start": "npm run start --workspace=packages/game-server",
+    "install:all": "npm install && npm run install:all --workspaces",
+    "clean": "rm -rf node_modules packages/*/node_modules packages/*/dist"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  }
+}

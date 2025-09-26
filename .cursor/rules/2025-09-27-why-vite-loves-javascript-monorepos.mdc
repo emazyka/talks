@@ -1,0 +1,28 @@
+---
+description:
+globs:
+alwaysApply: true
+---
+
+Concert Hall - Quickie 
+15:15-15:30
+Why Vite ♥ JavaScript Monorepos
+Ema Zyka
+
+JavaScript monorepos promise shared code, consistency, and easier collaboration but they often come with slow builds and complex setups. In this talk, we will explore why Vite fits naturally into modern JS monorepo workflows, how it helps teams stay productive as projects scale, and what a real setup looks like with shared libraries and multiple apps.
+
+Ema Zyka is a Staff Software Engineer at Allwyn Lottery Solutions with over 15 years of experience in web development. She is also a co-organizer of the Vue.js Athens meetup. She enjoys building purposeful teams and fostering environments where experimentation, continuous learning and growth. Passionate about JavaScript, Ema has contributed to distributed and diverse teams as an engineer, lead, mentor, and collaborator, delivering end-to-end solutions across the stack.
+
+
+This is a 15 minute talk that should cover this topic.
+
+Rewrite this slidev example for `2025-09-27-why-vite-loves-javascript-monorepos/src` to match the topic of a 15 minute talk presentation.
+
+The presentation audience are Mid Level FE engineers.
+
+For example use a game example demostrating a mono repo app that has shared packages, a game engine like http://github.com/lukasz-okuniewicz/layout-engine-2d, requirements to occasionally update Pixi.js library across dependencies, game-client, game-server, game-shared etc
+
+Use inspiration from https://github.com/webdevcody/survive-the-night-game for the monorepo but do not make references - use generic names not identical with this repo
+
+
+Any code changes you apply should be under 2025-09-27-why-vite-loves-javascript-monorepos

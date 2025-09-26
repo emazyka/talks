@@ -1,0 +1,16 @@
+{
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build --base /talks/2025-09-27-why-vite-loves-javascript-monorepos/ --out ../../dist/2025-09-27-why-vite-loves-javascript-monorepos",
+    "export": "slidev export --per-slide --output ../2025-09-27-why-vite-loves-javascript-monorepos.pdf"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "catalog:",
+    "@eslint/config-inspector": "catalog:",
+    "eslint": "catalog:",
+    "vis-timeline": "catalog:"
+  }
+}
