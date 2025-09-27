@@ -109,7 +109,7 @@ onMounted(() => {
   display: flex;
   align-items: center;
   margin-bottom: 2rem;
-  opacity: 0.3;
+  opacity: 0.8;
   transition: all 0.5s ease;
   transform: translateX(-20px);
 }
@@ -134,7 +134,7 @@ onMounted(() => {
   font-size: 1.2rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
-  color: #1e293b;
+  color: #eee;
 }
 
 .step-description {
