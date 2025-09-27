@@ -513,7 +513,7 @@ growX: 50
 growY: 120
 ---
 
-# Thank You!
+# Thank You!!
 
 <div mt5>
 <img src="/ema-zyka-2022-b.jpg" rounded-full inline w-30 />
